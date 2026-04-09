@@ -1,7 +1,7 @@
 # Rajan Yadav
 
 **Bengaluru, Karnataka, India**
-mail.rajanydv@gmail.com | +917007768906 | [GitHub: hatchedland](https://github.com/hatchedland) | [LinkedIn: rajanydv](https://linkedin.com/in/rajanydv)
+mail.rajanydv@gmail.com | +917007768906 | [GitHub](https://github.com/hatchedland) | [LinkedIn](https://linkedin.com/in/rajanydv)
 
 Software Engineer with full-stack experience across React, Next.js, Node.js, Python, and Google Cloud Platform (GCP). Built and scaled production platforms serving thousands of users, with hands-on expertise in AI integration, microservices architecture, and agile team leadership.
 
@@ -57,12 +57,13 @@ Software Engineer with full-stack experience across React, Next.js, Node.js, Pyt
 - Built Retrieval-Augmented Generation (RAG) powered explanations and automated question paper generation across 6 CBSE exam patterns.
 - Built with FastMCP (Python), FastAPI, Qdrant, SQLite, and Gemini; exposes 13 MCP tools and 17 REST endpoints with Server-Sent Events (SSE) streaming.
 
-### Octotale
-**Collaborative Branching Film Platform**
+### PromptLock
+**Open-source Prompt Injection Defense Library**
 
-- Built full-stack platform with Next.js 16 (React 19), Prisma 5, PostgreSQL (Supabase), and cookie-based auth for collaborative branching film creation.
-- Integrated Google Gemini 2.5 Pro for AI-powered scene generation and branching narrative logic; designed scene tree architecture for community-driven alternate storylines.
-- Developed storyboard views, screenplay PDF export, and real-time reactions/comments system.
+- Built open-source library for detecting and blocking prompt injection attacks across Go, Python, and TypeScript with a unified API surface.
+- Engineered detection engine covering 70+ prompt injection attack patterns including jailbreaks, instruction overrides, and indirect injection via external content.
+- Designed for LLM infrastructure and AI-powered applications where untrusted input reaches model context.
+- Achieved 300+ weekly downloads on npm within weeks of release.
 
 ---
 

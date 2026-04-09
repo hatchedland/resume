@@ -1,0 +1,28 @@
+name: Generate Resume PDF
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install md-to-pdf
+        run: npm install -g md-to-pdf
+
+      - name: Generate PDF
+        run: md-to-pdf README.md && mv README.pdf resume.pdf
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume
+          path: resume.pdf
+          retention-days: 90
