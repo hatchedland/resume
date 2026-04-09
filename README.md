@@ -1,7 +1,7 @@
 # Rajan Yadav
 
-**Bengaluru, Karnataka, India**
-mail.rajanydv@gmail.com | +917007768906 | [GitHub](https://github.com/hatchedland) | [LinkedIn](https://linkedin.com/in/rajanydv)
+**Bengaluru, India**
+mail.rajanydv@gmail.com | +917007768906 | [GitHub](https://github.com/hatchedland) | [LinkedIn](https://linkedin.com/in/rajanydv) | [rajan.works](https://rajan.works)
 
 Software Engineer with full-stack experience across React, Next.js, Node.js, Python, and Google Cloud Platform (GCP). Built and scaled production platforms serving thousands of users, with hands-on expertise in AI integration, microservices architecture, and agile team leadership.
 
@@ -43,21 +43,21 @@ Software Engineer with full-stack experience across React, Next.js, Node.js, Pyt
 
 ## Projects
 
-### BizLogic
+### [Cawght](https://cawght.com)
 **AI-Powered Business Logic Security Tester**
 
 - Engineered a three-phase AI pipeline (classify endpoints, extract business rules, generate attack scenarios) using Gemini to automatically identify and test business logic vulnerabilities.
 - Built Chrome extension with request recorder and React side panel UI; developed server-side HTTP test executor detecting Insecure Direct Object Reference (IDOR), privilege escalation, race conditions, and 6 other vulnerability categories.
 - Built with Next.js, Prisma, PostgreSQL, JWT auth, and Gemini AI.
 
-### NCERT MCP
+### [NCERT MCP](https://github.com/hatchedland/ncert-mcp)
 **Open-source MCP Server & REST API for NCERT/CBSE Curriculum**
 
 - Engineered semantic vector search (Qdrant) and BM25 keyword search over 145 chapters, 14 subjects, and 9,500+ topics.
 - Built Retrieval-Augmented Generation (RAG) powered explanations and automated question paper generation across 6 CBSE exam patterns.
 - Built with FastMCP (Python), FastAPI, Qdrant, SQLite, and Gemini; exposes 13 MCP tools and 17 REST endpoints with Server-Sent Events (SSE) streaming.
 
-### PromptLock
+### [PromptLock](https://github.com/hatchedland/prompt-lock)
 **Open-source Prompt Injection Defense Library**
 
 - Built open-source library for detecting and blocking prompt injection attacks across Go, Python, and TypeScript with a unified API surface.
